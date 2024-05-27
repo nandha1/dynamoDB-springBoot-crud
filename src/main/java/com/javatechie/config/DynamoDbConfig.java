@@ -21,6 +21,6 @@ public class DynamoDbConfig {
         return AmazonDynamoDBClientBuilder.standard()
                 .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("dynamodb.ap-south-1.amazonaws.com","ap-south-1"))
                 .withCredentials(new AWSStaticCredentialsProvider
-                        (new BasicAWSCredentials("AKIAU6GD2AAPIFIJQDNJ","imgMTssF400tLNAIGb+s3dGQmTMAMnN+YhUcfML9"))).build();
+                        (new BasicAWSCredentials("",""))).build();
     }
 }
